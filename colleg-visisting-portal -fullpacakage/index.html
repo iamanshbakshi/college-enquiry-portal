@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admission Portal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <nav>
+    <button>Home</button>
+    <button onclick="location.href='achievements.html';">College Achievements</button>
+  </nav>
+  <h1>Admission Portal</h1>
+  <div class="image-form">
+    <img src="https://th.bing.com/th/id/OIP.euLi3Q-oFMy3pWolOz49eAHaFj?w=198&h=180&c=7&r=0&o=5&pid=1.7" alt="Admission" class="background">
+    <form class="form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="program">Desired Program of Study:</label><br>
+      <select id="program" name="program">
+        <option value="engineering">Engineering</option>
+        <option value="computer-science">Computer Science</option>
+        <option value="business">Business</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
